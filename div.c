@@ -2,7 +2,7 @@
 /**
  * f_div - divides the top two elements of the stack.
  * @head: stack head
- * @counter: line number
+ * @counter: line_number
  * Return: no return
  */
 void f_div(stack_t **head, unsigned int counter)
@@ -13,7 +13,7 @@ int len = 0, aux;
 h = *head;
 while (h)
 {
-h = h ->next;
+h = h->next;
 len++;
 }
 if (len < 2)

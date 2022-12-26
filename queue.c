@@ -11,7 +11,6 @@ void f_queue(stack_t **head, unsigned int counter)
 (void)counter;
 bus.lifi = 1;
 }
-
 /**
  * addqueue - add node to the tail stack
  * @n: new_value
